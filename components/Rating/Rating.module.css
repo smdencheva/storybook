@@ -1,0 +1,28 @@
+h3,
+p {
+  font-family: "Inter", sans-serif;
+}
+
+.ratingContainer {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  gap: 4px;
+}
+
+.star {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  user-select: none;
+  outline: none;
+}
+
+.star:hover {
+  color: #999;
+}
+
+.starFilled {
+  color: #ffd700;
+}

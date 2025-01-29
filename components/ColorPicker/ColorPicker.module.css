@@ -1,0 +1,33 @@
+.colorPickerContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Inter", sans-serif;
+}
+
+.colorInput {
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #fff;
+  outline: none;
+}
+
+.colorInput:hover {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.textInput {
+  width: 100px;
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.textInput:focus {
+  border-color: #999;
+}

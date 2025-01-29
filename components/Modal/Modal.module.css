@@ -1,0 +1,32 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 90%;
+  position: relative;
+}
+
+.closeButton {
+  font-family: "Inter", sans-serif;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
